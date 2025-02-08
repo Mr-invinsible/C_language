@@ -4,8 +4,8 @@ char in_order[7];
 char pre_order[7];
 int i = 0;
 char result[7];
-in_order=['d','b','e','a','f','c','g'];//"dbeafcg";
-pre_order=['a','b','d','e','c','f','g'];//"abdecfg";
+in_order={'d','b','e','a','f','c','g'};
+pre_order={'a','b','d','e','c','f','g'};
 int find(char root)
 {
     for (int j = 0; j < 7; j++)
